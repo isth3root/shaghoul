@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.ant-carousel .slick-prev,
+.ant-carousel .slick-next {
+    color: black;
+    transform: scale(1.5);
+
+}
+
+.ant-carousel .slick-prev:hover,
+.ant-carousel .slick-next:hover{
+    color: black;
+}
