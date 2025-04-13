@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 
 const App: React.FC = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shaghoul">
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
